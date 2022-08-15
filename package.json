@@ -1,0 +1,23 @@
+{
+  "name": "typescript-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorimusz/typescript-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorimusz/typescript-intro/issues"
+  },
+  "homepage": "https://github.com/dorimusz/typescript-intro#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
