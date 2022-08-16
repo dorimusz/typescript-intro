@@ -52,7 +52,7 @@
     // "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
     // "declarationMap": true,                           /* Create sourcemaps for d.ts files. */
     // "emitDeclarationOnly": true,                      /* Only output d.ts files and not JavaScript files. */
-    // "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "sourceMap": true /* Create source map files for emitted JavaScript files. */,
     // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
     // "outDir": "./",                                   /* Specify an output folder for all emitted files. */
     // "removeComments": true,                           /* Disable emitting comments. */
@@ -104,16 +104,15 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
 
   /* Compiler Options */
-
-  // "exclude": [
-  //   // "analytics.ts",
-  //   // "**/*.dev.ts",
-  //   "node_modules", // excludes it by default, but have to give it explicitly when use exclude
-  //   "core-types"
-  // ],
+  "exclude": [
+    // "analytics.ts",
+    // "**/*.dev.ts",
+    "node_modules", // excludes it by default, but have to give it explicitly when use exclude
+    "core-types"
+  ]
   // "include": [
   //   "app.ts", //have to specify all files and folders that need compiling, oherwise it will not compile them
   //   "analytics.ts"
