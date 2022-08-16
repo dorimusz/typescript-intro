@@ -1,6 +1,7 @@
 /node_modules
 /app.js
-
+/core-types/*.js
+/*.js
 # npm install --save-dev lite-server  + modify package.json
 # npm start
 # tsc app.ts to compile app.ts to app.js
